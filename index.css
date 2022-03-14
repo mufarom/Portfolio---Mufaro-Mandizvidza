@@ -1,11 +1,37 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
 body{
     background-color: black;
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: "nav nav"
+                         "aside main"
+                         "footer footer";
 }
 
-body>p{
+p{
     color: white;
-    font-size: xx-large;
+    font-size: 3em;
+    text-indent: 4pt;
 }
 
+nav{
+    background-color: lightslategrey;
+    grid-area: nav;
+}
 
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center; 
+}
 
+nav>ul>li{
+    position: relative;
+}
