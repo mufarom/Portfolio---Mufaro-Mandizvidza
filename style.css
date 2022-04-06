@@ -1,0 +1,85 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+html{
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
+}
+
+p{
+    color: white;
+    font-size: 3em;
+    transform: translate(20%, 400%);
+}
+
+nav{
+    background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
+    text-transform: uppercase;
+    font-family:'Titillium Web', sans-serif;
+    color: whitesmoke;
+    padding: 1em 1em 1em 1em 1em;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+    background-color: rgb(31, 32, 34);
+    grid-area: nav;
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:visited{
+    color: whitesmoke;
+}
+
+a:active{
+    color: whitesmoke;
+}
+
+a:hover{
+    font-weight:bold;
+    text-decoration: underline;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left
+}
+
+footer{
+    background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    text-align: center;
+    grid-area: footer;
+}
