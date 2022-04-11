@@ -6,3 +6,7 @@ body{
                          "main main main"
                          "footer footer footer";
 }
+
+img{
+    grid-area: main;
+}

@@ -1,29 +1,73 @@
 h1{
     color: whitesmoke;
     text-align: center;
+    text-decoration: underline;
+    transform:translateY(350%);
+}
+aside{
+    text-align: center;
+}
+body{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "nav nav"
+                         "aside main"
+                         "footer footer";
+}
+aside h2{
+    color: whitesmoke;
+    font-size:xx-large;
+    text-decoration: underline;
+    transform:translateY(345%);
 }
 
 form {
-    align-items: center;
-    vertical-align: middle;
-    display: grid;
-    width: 400px;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    grid-gap: 0.5em;
+    transform: translateY(40%);
+    text-align: center;
+    grid-area: main;
 }
-
-input {
-    align-items: center;
-    vertical-align: middle;
-    border: 2px solid red;
-    background-color: darkred;
+input[type=text], select{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+} 
+input[type=submit]
+{
+    width: 50%;
+    background-color:skyblue;
     color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
 }
-   
-input[type="submit"]{
-    align-items: center;
-    vertical-align: middle;
-    border: 2px solid blue;
-    background-color: grey;
+input[type=submit]:hover {
+    background-color:lightblue;
+  }
+textarea{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
+.breakLine {
+  border-left: 3px solid skyblue;
+  height: 400px;
+  position: fixed;
+  left: 50%;
+  right: 50%;
+  margin-left: -3px;
+  margin-right: -3px;
+  top: 0;
+  transform: translateY(50%);
+  border-radius: 2px
+  }

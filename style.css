@@ -1,7 +1,7 @@
-*
-{
-    margin:0;
-    padding:0;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 html{
@@ -13,63 +13,49 @@ html{
 }
 
 body{
-    margin: 0;
+    font-family: 'Teko', sans-serif;
     width: 100%;
     background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
 }
 
-p{
-    color: white;
-    font-size: 3em;
-    transform: translate(20%, 400%);
-}
 
 nav{
     background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
-    text-transform: uppercase;
-    font-family:'Titillium Web', sans-serif;
+    text-transform: capitalize;
     color: whitesmoke;
-    padding: 1em 1em 1em 1em 1em;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20% ;
-    background-color: rgb(31, 32, 34);
     grid-area: nav;
     text-align: center;
-    font-size: large;
+    font-size: larger;
     width: 100%;
     text-decoration: none;
+}
+
+.logo{
+    text-transform: capitalize;
+    padding: 10px 25px;
+}
+
+.logo a:hover, a:visited, a:active, a:after{
+    text-decoration: none;
+    text-transform: none;
 }
 
 nav ul li{
     list-style-type: none;
+    display: inline-block;
+    padding: 20px;
 }
 
-a:link{
+a:link, :visited, :active{
     text-decoration: none;
     color: whitesmoke;
 }
 
-a:visited{
-    color: whitesmoke;
-}
-
-a:active{
-    color: whitesmoke;
-}
-
-a:hover{
-    font-weight:bold;
-    text-decoration: underline;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-a:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left
+nav ul li a:hover{
+    color:skyblue;
+    transition: .4s;
 }
 
 footer{
