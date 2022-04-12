@@ -6,7 +6,7 @@ body{
                          "main main main"
                          "footer footer footer";
 }
-ul li{
+main ul li{
     list-style: none;
     float: left;
     justify-content: left;
