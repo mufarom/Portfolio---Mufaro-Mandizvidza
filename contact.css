@@ -1,8 +1,14 @@
 h1{
-    color: whitesmoke;
+    color: skyblue;
     text-align: center;
     text-decoration: underline;
-    transform:translateY(350%);
+    transform:translateY(250%);
+}
+aside p{
+    transform:translateY(300%);
+    font-size:xx-large;
+    color: whitesmoke;
+    text-align: center;
 }
 aside{
     text-align: center;
@@ -15,14 +21,14 @@ body{
                          "footer footer";
 }
 aside h2{
-    color: whitesmoke;
+    color: skyblue;
     font-size:xx-large;
     text-decoration: underline;
-    transform:translateY(345%);
+    transform:translateY(250%);
 }
 
 form {
-    transform: translateY(40%);
+    transform: translateY(30%);
     text-align: center;
     grid-area: main;
 }
@@ -68,6 +74,10 @@ textarea{
   margin-left: -3px;
   margin-right: -3px;
   top: 0;
-  transform: translateY(50%);
+  transform: translateY(40%);
   border-radius: 2px
+  }
+  img{
+      max-width: 5%;
+      max-height: 5%;
   }

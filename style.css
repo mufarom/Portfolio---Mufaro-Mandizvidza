@@ -27,25 +27,24 @@ nav{
     grid-template-columns: 20% 20% 20% 20% 20% ;
     grid-area: nav;
     text-align: center;
-    font-size: larger;
+    font-size: 25px;
     width: 100%;
     text-decoration: none;
 }
-
-.logo{
-    text-transform: capitalize;
-    padding: 10px 25px;
+#logo{
+    font-size: 40px;
+    color: whitesmoke;
+    transform: translateY(20%);
 }
-
-.logo a:hover, a:visited, a:active, a:after{
-    text-decoration: none;
-    text-transform: none;
+#logo :hover{
+    color: skyblue;
+    transition: .4s;
 }
 
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
 }
 
 a:link, :visited, :active{
@@ -56,10 +55,11 @@ a:link, :visited, :active{
 nav ul li a:hover{
     color:skyblue;
     transition: .4s;
+    text-decoration: underline;
+    transition: .4s ease-in;
 }
 
 footer{
-    background: linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
     color: white;
     position: fixed;
     left: 0;

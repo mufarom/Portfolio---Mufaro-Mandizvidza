@@ -6,7 +6,15 @@ body{
                          "main main main"
                          "footer footer footer";
 }
-
-img{
+ul li{
+    list-style: none;
+    float: left;
+    justify-content: left;
     grid-area: main;
+}
+.powerpoint{
+    grid-area: main;
+    max-width: 40%;
+    max-height: 40%;
+    float: left;
 }
