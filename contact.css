@@ -4,6 +4,9 @@ h1{
     text-decoration: underline;
     transform:translateY(250%);
 }
+p{
+    position: sticky;
+}
 aside p{
     transform:translateY(300%);
     font-size:xx-large;
@@ -20,13 +23,12 @@ body{
                          "aside main"
                          "footer footer";
 }
-aside h2{
+h2{
     color: skyblue;
     font-size:xx-large;
     text-decoration: underline;
     transform:translateY(250%);
 }
-
 form {
     transform: translateY(30%);
     text-align: center;
@@ -41,8 +43,7 @@ input[type=text], select{
     border-radius: 4px;
     box-sizing: border-box;
 } 
-input[type=submit]
-{
+input[type=submit]{
     width: 50%;
     background-color:skyblue;
     color: white;
@@ -66,18 +67,47 @@ textarea{
     box-sizing: border-box;
 }
 .breakLine {
-  border-left: 3px solid skyblue;
-  height: 400px;
-  position: fixed;
-  left: 50%;
-  right: 50%;
-  margin-left: -3px;
-  margin-right: -3px;
-  top: 0;
-  transform: translateY(40%);
-  border-radius: 2px
-  }
-  img{
-      max-width: 5%;
-      max-height: 5%;
-  }
+    border-left: 3px solid skyblue;
+    height: 400px;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    margin-left: -3px;
+    margin-right: -3px;
+    top: 0;
+    transform: translateY(40%);
+    border-radius: 2px
+}
+img{
+    max-width: 5%;
+    max-height: 5%;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #494949;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 15px 0px;
+}
+.navbar ul li{
+    font-family: 'Teko', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 50px 50px;
+}
+.navbar ul li a:hover{
+    color: skyblue;
+    text-decoration: underline;
+}
+#clicked .on, .off{
+    display: none;
+}

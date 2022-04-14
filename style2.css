@@ -1,16 +1,17 @@
-body{
-    display: grid;
-    grid-template-columns: 33% 33% 34%;
-    grid-template-rows: auto;
-    grid-template-areas: "nav nav nav"
-                         "main main main"
-                         "footer footer footer";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+   grid-area: nav;
 }
 .navbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #494949;
+    background: linear-gradient(360deg, #1C1C1C, #494949);
+    position: sticky;
     top: 0;
 }
 .navbar ul{
@@ -27,11 +28,9 @@ body{
     text-decoration: none;
     color: whitesmoke;
     padding: 50px 50px;
+    transition: all .5s ease;
 }
 .navbar ul li a:hover{
     color: skyblue;
     text-decoration: underline;
-}
-#clicked .on, .off{
-    display: none;
 }
