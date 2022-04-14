@@ -20,9 +20,9 @@ nav{
    grid-area: nav;
    width: 100vw;
 }
-
 footer{
     background-color: skyblue;
+    color: black;
     position: fixed;
     bottom: 0;
     width: 100vw;
