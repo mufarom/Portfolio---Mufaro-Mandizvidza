@@ -32,8 +32,9 @@ img{
     top: 0;
     left: 50%;
     width: 50%;
+    z-index: 9999;
     height: 100vh;
-    transition: 1.2s ease-in-out;
+    transition: 1.5s ease-in-out;
 }
 .navbar ul{
     display: block;
@@ -58,8 +59,8 @@ img{
 #clicked:target .navbar
 {
     display: block;
-    transform: translate(500%, 0);
-    transition: all 1.2s ease-in-out;
+    transform: translate(100%, 0);
+    transition: all 1.5s ease-in-out;
 }
 
 #clicked:target .on{display: none;}

@@ -22,7 +22,7 @@ p{
     font-size: 2.7em;
     justify-content: center;
 }
-.name{
+.blue{
     color: skyblue;
 }
 img{
@@ -30,7 +30,7 @@ img{
     position: fixed;
     width: 200px;
     height: 200px;
-    transform: translate(120%, 100%);
+    transform: translate(120%, 120%);
     justify-content: center;
 }
 .navbar{

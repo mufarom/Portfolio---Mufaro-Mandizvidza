@@ -5,7 +5,8 @@ main{
     transform: translateY(30%);
     grid-template-columns: repeat(3, 0.1fr);
     grid-template-rows: repeat(2, 0.5fr);
-    grid-gap: 40px;
+    grid-row-gap: 40px;
+    grid-column-gap: 200px;
 }
 img{
     width: 130px;
