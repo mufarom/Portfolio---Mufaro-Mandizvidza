@@ -1,3 +1,6 @@
+html{
+    overflow-y:auto;
+}
 body{
     display: grid;
     grid-template-columns: 100%;

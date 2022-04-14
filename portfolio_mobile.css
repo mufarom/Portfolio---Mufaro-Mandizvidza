@@ -1,9 +1,30 @@
+html{
+    overflow-y: scroll;
+}
 body{
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "nav"
                          "main"
                          "footer";
+}
+main{
+    display: grid;
+    justify-content: center;
+    transform: translateY(30%);
+    grid-template-columns: repeat(2, 0.1fr);
+    grid-template-rows: repeat(3, 0.2fr);
+    grid-gap: 40px;
+}
+p{
+    text-align: center;
+}
+img{
+    align-items: center;
+    width: 130px;
+    height: 110px;
+    border: 5px solid skyblue;
+    border-radius: 5px;
 }
 .navbar {
     background-color: #494949;
