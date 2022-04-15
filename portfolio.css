@@ -28,7 +28,6 @@ p{
     justify-content: center;
     align-items: center;
     background: #494949;
-    top: 0;
 }
 .navbar ul{
     display: flex;

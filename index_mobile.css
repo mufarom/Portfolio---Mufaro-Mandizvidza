@@ -21,7 +21,6 @@ main{
     justify-content: center;
     text-align: center;
     grid-area: main;
-    vertical-align: middle;
 }
 footer{
     width: 100vw;
