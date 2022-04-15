@@ -6,7 +6,7 @@ body{
     grid-template-columns: 100%;
     grid-template-areas: "nav"
                          "main"
-                         "aside"
+                         "section"
                          "footer";
 }
 form {
@@ -28,7 +28,7 @@ h2{
     text-align: center;
     transform: translateY(150%);
 }
-aside p{
+section p{
     font-size:50px;
     color: whitesmoke;
     text-align: center;
@@ -79,15 +79,15 @@ img{
 #call, #email{
     font-size: 50px;
 }
-aside{
-    grid-area: aside;
+section{
+    grid-area: section;
 }
 .navbar {
     background-color: #494949;
     position: fixed;
     top: 0;
-    left: 50%;
-    width: 50%;
+    left: 60%;
+    width: 40%;
     z-index: 9999;
     height: 100vh;
     transition: 1.5s ease-in-out;

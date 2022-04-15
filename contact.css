@@ -6,21 +6,21 @@ h1{
 }
 p{
     position: sticky;
-}
-aside p{
+}section p{
     transform:translateY(300%);
     font-size:xx-large;
     color: whitesmoke;
     text-align: center;
 }
-aside{
+section{
     text-align: center;
+    transform:translateX(25%);
 }
 body{
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-areas: "nav nav"
-                         "aside main"
+                         "section main"
                          "footer footer";
 }
 h2{

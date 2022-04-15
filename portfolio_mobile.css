@@ -39,8 +39,8 @@ img:hover{
     background-color: #494949;
     position: fixed;
     top: 0;
-    left: 50%;
-    width: 50%;
+    left: 60%;
+    width: 40%;
     z-index: 9999;
     height: 100vh;
     transition: 1.5s ease-in-out;

@@ -44,8 +44,8 @@ p{
     background-color: #494949;
     position: fixed;
     top: 0;
-    left: 50%;
-    width: 50%;
+    left: 60%;
+    width: 40%;
     height: 100vh;
     z-index: 9999;
     transition: 1.5s ease-in-out;
