@@ -15,6 +15,7 @@ form {
     grid-area: main;
 }
 h1{
+    font-size: 55px;
     color: skyblue;
     text-align: center;
     text-decoration: underline;
@@ -22,23 +23,23 @@ h1{
 }
 h2{
     color: skyblue;
-    font-size:xx-large;
+    font-size: 55px;
     text-decoration: underline;
     text-align: center;
-    transform: translateY(250%);
+    transform: translateY(150%);
 }
 aside p{
-    font-size:xx-large;
+    font-size:50px;
     color: whitesmoke;
     text-align: center;
-    transform: translateY(300%);
+    transform: translateY(150%);
 }
 .breakLine{
     display: none;
 }
 input[type=text], select{
-    width: 50%;
-    padding: 12px 20px;
+    width: 70%;
+    padding: 20px 30px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -49,7 +50,7 @@ input[type=submit]{
     width: 50%;
     background-color:skyblue;
     color: white;
-    padding: 14px 20px;
+    padding: 15px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
@@ -60,8 +61,8 @@ input[type=submit]:hover {
     background-color:lightblue;
   }
 textarea{
-    width: 50%;
-    padding: 12px 20px;
+    width: 70%;
+    padding: 25px 30px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -72,8 +73,11 @@ main{
     grid-area: main;
 }
 img{
-    max-width: 2%;
-    max-height: 2%;
+    max-width: 5%;
+    max-height: 5%;
+}
+#call, #email{
+    font-size: 50px;
 }
 aside{
     grid-area: aside;
@@ -97,7 +101,7 @@ aside{
 .navbar ul li a{
     text-decoration: none;
     color: whitesmoke;
-    font-size: 35px;
+    font-size: 60px;
     padding: 0px 0px;
 }
 .navbar ul li a:hover{
@@ -123,4 +127,10 @@ aside{
     font-size: 60px;
     padding-top: 5%;
     transform: translateX(750%);
+}
+footer{
+    font-size:45px;
+}
+#name, #email_address, #subject, #company, #message, #submit{
+    font-size:35px;
 }

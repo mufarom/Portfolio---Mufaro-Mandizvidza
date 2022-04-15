@@ -20,7 +20,7 @@ html{
 .navbar ul li a{
     text-decoration: none;
     color: whitesmoke;
-    font-size: 35px;
+    font-size: 60px;
     padding: 0px 0px;
 }
 .navbar ul li a:hover{
@@ -46,4 +46,7 @@ html{
     font-size: 60px;
     padding-top: 5%;
     transform: translateX(750%);
+}
+footer{
+    font-size:45px;
 }

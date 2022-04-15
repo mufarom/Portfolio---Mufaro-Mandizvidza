@@ -32,10 +32,10 @@ img{
     width: 200px;
     height: 200px;
     justify-content: center;
-    transform: translateY(75%);
+    transform: translateY(170%);
 }
 p{
-    font-size: 45px;
+    font-size: 60px;
     transform: translateY(400%);
 }
 .blue{
@@ -60,7 +60,7 @@ p{
 .navbar ul li a{
     text-decoration: none;
     color: whitesmoke;
-    font-size: 35px;
+    font-size: 60px;
     padding: 0px 0px;
 }
 .navbar ul li a:hover{
@@ -86,4 +86,7 @@ p{
     font-size: 60px;
     padding-top: 5%;
     transform: translateX(750%);
+}
+footer{
+    font-size:45px;
 }
