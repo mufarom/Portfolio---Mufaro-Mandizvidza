@@ -2,7 +2,7 @@ main {
     grid-area: main;
     display: grid;
     justify-content: center;
-    transform: translateY(30%);
+    transform: translateY(20%);
     grid-template-columns: repeat(3, 0.1fr);
     grid-template-rows: repeat(2, 0.5fr);
     grid-row-gap: 40px;
@@ -25,6 +25,7 @@ img:hover {
 
 p {
     text-align: center;
+    font-size:25px;
 }
 
 .navbar {

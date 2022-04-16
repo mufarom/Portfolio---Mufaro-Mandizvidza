@@ -34,9 +34,11 @@ img {
     grid-area: aside;
     position: fixed;
     width: 200px;
-    height: 200px;
-    transform: translate(120%, 120%);
+    height: 220px;
+    transform: translate(120%, 110%);
     justify-content: center;
+    border: 10px solid skyblue;
+    border-radius:5px;
 }
 
 .navbar {

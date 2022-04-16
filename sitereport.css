@@ -25,6 +25,7 @@ h3 {
 .report {
     grid-column-start: 1;
     grid-column-end: 2;
+    transform:translateY(-30px);
 }
 
 .screenshots {
