@@ -1,6 +1,33 @@
 html{
     overflow-y: scroll;
 }
+main{
+    display: grid;
+    grid-template-columns: 100%;
+}
+p{
+    text-align: center;
+}
+h3{
+    text-decoration:underline;
+    color: skyblue;
+    padding-top:10px;
+    text-align:center;
+}
+img{
+    width: 70%;
+    transform: translateX(25%);
+    border:10px solid skyblue;
+    border-radius:5px;
+    transition: .2s ease-in-out;
+}
+img:hover{
+    border: 10px solid darkgray;
+    border-radius:5px;
+}
+.blank{
+    display: none;
+}
 .navbar {
     background-color: #494949;
     position: fixed;
@@ -49,4 +76,5 @@ html{
 }
 footer{
     font-size:45px;
+    position: relative;
 }

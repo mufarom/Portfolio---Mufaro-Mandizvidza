@@ -1,4 +1,4 @@
-main{
+main {
     grid-area: main;
     display: grid;
     justify-content: center;
@@ -8,46 +8,56 @@ main{
     grid-row-gap: 40px;
     grid-column-gap: 200px;
 }
-img{
+
+img {
     width: 170px;
     height: 170px;
     border: 5px solid skyblue;
     border-radius: 5px;
     transition: 1s;
 }
-img:hover{
-    cursor:pointer;
+
+img:hover {
+    cursor: pointer;
     transform: scale(1.5);
     border: none;
 }
-p{
+
+p {
     text-align: center;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #494949;
 }
-.navbar ul{
+
+.navbar ul {
     display: flex;
     list-style: none;
     margin: 15px 0px;
 }
-.navbar ul li{
+
+.navbar ul li {
     font-family: 'Teko', sans-serif;
     font-size: 22px;
     font-weight: bold;
 }
-.navbar ul li a{
+
+.navbar ul li a {
     text-decoration: none;
     color: whitesmoke;
     padding: 50px 50px;
 }
-.navbar ul li a:hover{
+
+.navbar ul li a:hover {
     color: skyblue;
     text-decoration: underline;
 }
-#clicked .on, .off{
+
+#clicked .on,
+.off {
     display: none;
 }
