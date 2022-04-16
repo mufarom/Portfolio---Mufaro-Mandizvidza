@@ -1,28 +1,32 @@
-html{
+html {
     overflow-y: scroll;
 }
-body{
+
+body {
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "nav"
-                         "main"
-                         "footer";
+        "main"
+        "footer";
 }
-main{
+
+main {
     display: grid;
     justify-content: center;
     transform: translateY(15%);
     grid-template-columns: repeat(2, 0.1fr);
     grid-template-rows: repeat(3, 0.2fr);
     grid-row-gap: 40px;
-    grid-column-gap:250px
+    grid-column-gap: 250px
 }
-p{
+
+p {
     text-align: center;
     font-size: 25px;
     float: right;
 }
-img{
+
+img {
     align-items: center;
     width: 200px;
     height: 200px;
@@ -30,11 +34,13 @@ img{
     border-radius: 5px;
     transition: 1s;
 }
-img:hover{
-    cursor:pointer;
+
+img:hover {
+    cursor: pointer;
     transform: scale(1.5);
     border: none;
 }
+
 .navbar {
     background-color: #494949;
     position: fixed;
@@ -45,42 +51,56 @@ img:hover{
     height: 100vh;
     transition: 1.5s ease-in-out;
 }
-.navbar ul{
+
+.navbar ul {
     display: block;
     list-style: none;
     text-align: center;
     transform: translateY(50%);
 }
-.navbar ul li a{
+
+.navbar ul li a {
     text-decoration: none;
     color: whitesmoke;
     font-size: 60px;
     padding: 0px 0px;
 }
-.navbar ul li a:hover{
+
+.navbar ul li a:hover {
     text-decoration: underline;
     color: skyblue;
 }
 
-#clicked .on{display: block;}
-#clicked .off{display:none;}
+#clicked .on {
+    display: block;
+}
 
-#clicked:target .navbar
-{
+#clicked .off {
+    display: none;
+}
+
+#clicked:target .navbar {
     display: block;
     transform: translate(100%, 0);
     transition: all 1.5s ease-in-out;
 }
 
-#clicked:target .on{display: none;}
-#clicked:target .off{display: block;}
+#clicked:target .on {
+    display: none;
+}
 
-#menu, #close{
+#clicked:target .off {
+    display: block;
+}
+
+#menu,
+#close {
     color: whitesmoke;
     font-size: 60px;
     padding-top: 5%;
     transform: translateX(750%);
 }
-footer{
-    font-size:45px;
+
+footer {
+    font-size: 45px;
 }

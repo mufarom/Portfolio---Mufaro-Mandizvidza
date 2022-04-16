@@ -1,31 +1,36 @@
-body{
+body {
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-areas: "nav nav"
-                         "aside main"
-                         "footer footer";
+        "aside main"
+        "footer footer";
 }
-aside{
+
+aside {
     width: 40vw;
     height: 100vh;
     grid-area: aside;
     justify-content: center;
 }
-main{
+
+main {
     width: 60vw;
     height: 100vh;
     grid-area: main;
 }
-p{
+
+p {
     color: white;
     transform: translateY(350%);
     font-size: 2.7em;
     justify-content: center;
 }
-.blue{
+
+.blue {
     color: skyblue;
 }
-img{
+
+img {
     grid-area: aside;
     position: fixed;
     width: 200px;
@@ -33,31 +38,38 @@ img{
     transform: translate(120%, 120%);
     justify-content: center;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #494949;
 }
-.navbar ul{
+
+.navbar ul {
     display: flex;
     list-style: none;
     margin: 15px 0px;
 }
-.navbar ul li{
+
+.navbar ul li {
     font-family: 'Teko', sans-serif;
     font-size: 22px;
     font-weight: bold;
 }
-.navbar ul li a{
+
+.navbar ul li a {
     text-decoration: none;
     color: whitesmoke;
     padding: 50px 50px;
 }
-.navbar ul li a:hover{
+
+.navbar ul li a:hover {
     color: skyblue;
     text-decoration: underline;
 }
-#clicked .on, .off{
+
+#clicked .on,
+.off {
     display: none;
 }
